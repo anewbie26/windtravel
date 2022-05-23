@@ -8,6 +8,13 @@ module.exports = {
       backgroundImage: {
         'heroImg': "url('/assets/hero_sec_img/bg.png')",
         
+      },
+      fontFamily: {
+        'hero': ["'Montserrat', sans-serif" ],
+        'poppins': ["'Poppins', sans-serif"],
+        'volk': ['Volkhov', 'serif'],
+        'display': ['Oswald', ],
+        'body': ['"Open Sans"',],
       }
     },
   },

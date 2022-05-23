@@ -30,10 +30,11 @@ function Category() {
   return (
     <div className="">
       <CatHeading />
+      <div className="flex flex-col | md:flex-row md:flex-wrap md:justify-evenly |">
       {array.map((card) => (
         <CatCards img={card.img} title={card.heading} text={card.desc} />
       ))}
-   
+   </div>
     </div>
   );
 }

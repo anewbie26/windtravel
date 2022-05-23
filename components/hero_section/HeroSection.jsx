@@ -12,7 +12,9 @@ function HeroSection() {
         <Info />
         {/* <MostPop /> */}
       </div>
+      
       <Category />
+      
     </>
   );
 }
