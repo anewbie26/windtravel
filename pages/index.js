@@ -3,6 +3,7 @@ import HeroSection from "../components/hero_section/HeroSection";
 
 export default function Home() {
   return (
+    // bg-[#E5E5E5]
     <div className="">
       <Head>
         <title>WindTravels</title>

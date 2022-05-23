@@ -16,7 +16,7 @@ function Navbar() {
         </div>
       </div>
       <div>
-        {/* buttons */}
+        {/* Big screeen buttons*/}
         <div className="scale-0 flex w-[50vw] justify-between px-4 text-white items-center | lg:scale-100 |">
           <p>Home</p>
           <p>About Us</p>
@@ -29,7 +29,7 @@ function Navbar() {
           </button>
           <div
             className={` h-28 w-16 bg-white flex flex-col lg:absolute ${
-              subMenuOpen ? "hidden" : "flex"
+              !subMenuOpen ? "hidden" : "flex"
             }`}
           >
             <p>English</p>
@@ -48,23 +48,23 @@ function Navbar() {
             </button>
           ) : (
             <button
-              className="text-white text-2xl fixed top-8 right-6 z-50"
+              className=" text-2xl fixed top-8 right-6 z-50"
               onClick={() => setIsOpen(!isOpen)}
             >
               x
             </button>
           )}
-
+{/* small screeen buttons (Sidebar) */}
           <div
-            className={`fixed top-0 right-0 h-screen w-[50%] bg-slate-600 ${
-              isOpen ? "translate-x-0" : "translate-x-full"
+            className={`fixed top-0 right-0 h-screen w-[50%] bg-white flex flex-col px-10 pt-28 text-left ${
+              isOpen ? "translate-x-0" : "translate-x-full z-40"
             } ease-in-out duration-300`}
           >
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Premium</p>
-            <p>Blogs</p>
-            <div className="mr-4">
+            <p className="p-2 rounded hover:text-white hover:bg-[#EBB076]">Home</p>
+            <p className="p-2">About Us</p>
+            <p className="p-2">Premium</p>
+            <p className="p-2">Blogs</p>
+            <div className="mr-4 p-2">
               <button onClick={() => setSubMenuOpen(!subMenuOpen)}>
                 EN
                 <KeyboardArrowDownIcon />
@@ -78,7 +78,7 @@ function Navbar() {
                 <p>Hindi</p>{" "}
               </div>
             </div>
-            <button>Book Now</button>
+            <p className="p-2">Book Now</p>
           </div>
         </div>
       </div>
