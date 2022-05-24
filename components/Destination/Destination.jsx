@@ -34,8 +34,8 @@ function Destination() {
   return (
     <div>
       <Heading />
-
-<div className="flex flex-col | md:flex-row md:flex-wrap md:justify-evenly |">
+<div className="xl:flex xl:justify-center">
+<div className="flex flex-col mt-6 | md:flex-row md:flex-wrap md:justify-evenly | xl:w-[80vw] xl:mt-2">
       {cards.map((card) => (
         <Cards
           key={card.id}
@@ -46,6 +46,7 @@ function Destination() {
           days={card.days}
         />
       ))}
+      </div>
       </div>
     </div>
   );

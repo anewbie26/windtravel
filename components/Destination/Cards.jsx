@@ -3,18 +3,18 @@ import React from "react";
 
 function Cards({ img, location, price, icon, days }) {
   return (
-    <div className="flex justify-center mb-10 rounded">
-      <div className=" rounded-xl shadow-lg h-[370px] w-[80vw] | md:w-[35vw] | | xl:w-[20vw] relative z-50 bg-white hover:scale-105 transition-all duration-200 ">
+    <div className="flex justify-center mb-10 rounded-">
+      <div className=" rounded-3xl shadow-lg h-[370px] w-[80vw] | md:w-[35vw] | | xl:w-[314px] xl:h-[457px] relative z-50 bg-white hover:scale-105 transition-all duration-200">
         <div className="rounded-4xl">
           <div className="">
             {/* <Image src={img} height={300} width={400} objectFit="cover" className={{borderRedius : "24px"}}/> */}
-            <img src={img} className = "h-[270px] w-full object-cover rounded-t-xl"  alt="image"/>
+            <img src={img} className = "h-[270px] w-full object-cover rounded-t-3xl xl:h-[327px]"  alt="image"/>
           </div>
           <div className="flex items-center justify-between my-3 text-[#023F76]">
-            <h1 className="font-medium text-[18px] text-[#5E6282] mt-1 ml-6">
+            <h1 className="font-medium text-[18px] text-[#5E6282] mt-1 ml-6 xl:mt-3">
               {location}
             </h1>
-            <h1 className="mr-6 mt-1 font-medium text-[18px] text-[#5E6282]">
+            <h1 className="mr-6 mt-1 font-medium text-[18px] text-[#5E6282] xl:mt-3 ">
               {price}
             </h1>
           </div>

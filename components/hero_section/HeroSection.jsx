@@ -7,11 +7,11 @@ import Navbar from "./Navbar";
 function HeroSection() {
   return (
     <>
-      <div className="bg-[url('/assets/hero_sec_img/bg.png')] w-full h-[80vh] bg-no-repeat bg-cover | sm:h-[100vh] | shadow-[#E7AC72]">
+      <div className="bg-[url('/assets/hero_sec_img/bg.png')] w-full h-[80vh] bg-no-repeat bg-cover | sm:h-[100vh] | shadow-xl shadow-[#E7AC72]">
         <Navbar />
         <Info />
         {/* <MostPop /> */}
-        <Cards />
+        {/* <Cards /> */}
       </div>
       
       

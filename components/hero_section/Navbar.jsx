@@ -7,8 +7,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   return (
-    <div className="h-[100px]  flex justify-between items-center px-4 font-hero text-[20px] font-bold">
-      <div className="flex ">
+    <div className="h-[100px]  flex justify-between items-center px-4 pt-10 font-hero">
+      <div className="flex xl:ml-10">
         {/* logo */}
         <div className="flex items-center">
           <Image src="/assets/hero_sec_img/logo.png" height={60} width={60}  alt="logo"/>
@@ -17,15 +17,15 @@ function Navbar() {
       </div>
       <div>
         {/* Big screeen buttons*/}
-        <div className="scale-0 flex w-[50vw] | lg:w-[60vw] | | 2xl:w-[50vw] |  justify-between px-4 text-white items-center | lg:scale-100 |">
+        <div className="scale-0 flex w-[50vw] text-[20px] font-bold  | lg:w-[65vw] | xl:w-[51vw] | 2xl:w-[50vw] |  justify-between px-4 text-white items-center | lg:scale-100 |">
           <p>Home</p>
           <p>About Us</p>
           <p>Premium</p>
           <p>Blogs</p>
           <div className ="relative">
-          <p className="text-black flex items-end" onClick={() => setSubMenuOpen(!subMenuOpen)} >
+          <p className="text-black flex items-end text-[17px] font-semibold " onClick={() => setSubMenuOpen(!subMenuOpen)} >
             EN
-            <span className="-ml-1">
+            <span className="-ml-1 font-medium">
             <KeyboardArrowDownIcon />
             </span>
           </p>
@@ -38,19 +38,19 @@ function Navbar() {
             <p>Hindi</p>{" "}
           </div>
           </div>
-          <button className="border-2 px-6 py-3 rounded-xl">Book Now</button>
+          <button className="border-2 px-4 py-3 -ml-10 rounded-xl text-[20px] font-bold">Book Now</button>
         </div>
         <div className="lg:scale-0 relative">
           {!isOpen ? (
             <button
-              className="absolute -top-[54px] right-4 z-40"
+              className="absolute -top-[54px] right-6 z-40"
               onClick={() => setIsOpen(!isOpen)}
             >
               <MenuIcon />
             </button>
           ) : (
             <button
-              className=" text-2xl absolute -top-[54px] right-4  z-50"
+              className=" text-2xl absolute -top-[54px] right-6  z-50"
               onClick={() => setIsOpen(!isOpen)}
             >
               x
@@ -58,7 +58,7 @@ function Navbar() {
           )}
 {/* small screeen buttons (Sidebar) */}
           <div
-            className={`fixed top-0 right-0 h-screen w-[50%] bg-white flex flex-col px-10 pt-28 text-left ${
+            className={`fixed top-0 right-0 h-screen w-[50%] sm:w-[40%] bg-white flex flex-col px-10 pt-28 text-left ${
               isOpen ? "translate-x-0" : "translate-x-full"
             } ease-in-out duration-300`}
           >
