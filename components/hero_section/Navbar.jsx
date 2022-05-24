@@ -17,7 +17,7 @@ function Navbar() {
       </div>
       <div>
         {/* Big screeen buttons*/}
-        <div className="scale-0 flex w-[50vw] justify-between px-4 text-white items-center | lg:scale-100 |">
+        <div className="scale-0 flex w-[50vw] | lg:w-[60vw] | | 2xl:w-[50vw] |  justify-between px-4 text-white items-center | lg:scale-100 |">
           <p>Home</p>
           <p>About Us</p>
           <p>Premium</p>
@@ -38,7 +38,7 @@ function Navbar() {
             <p>Hindi</p>{" "}
           </div>
           </div>
-          <button className="border-2 px-6 py-2 rounded-xl">Book Now</button>
+          <button className="border-2 px-6 py-3 rounded-xl">Book Now</button>
         </div>
         <div className="lg:scale-0 relative">
           {!isOpen ? (

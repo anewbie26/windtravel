@@ -1,5 +1,4 @@
 import React from "react";
-import Category from "../Categories/Category";
 import Info from "./Info";
 // import MostPop from "./MostPop";
 import Navbar from "./Navbar";
@@ -13,7 +12,7 @@ function HeroSection() {
         {/* <MostPop /> */}
       </div>
       
-      <Category />
+      
       
     </>
   );
