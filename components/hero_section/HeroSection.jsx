@@ -1,4 +1,5 @@
 import React from "react";
+import Cards from "./Cards";
 import Info from "./Info";
 // import MostPop from "./MostPop";
 import Navbar from "./Navbar";
@@ -10,6 +11,7 @@ function HeroSection() {
         <Navbar />
         <Info />
         {/* <MostPop /> */}
+        <Cards />
       </div>
       
       

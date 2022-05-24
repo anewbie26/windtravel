@@ -19,6 +19,7 @@ function Info() {
               src="/assets/hero_sec_img/plane.png"
               height={130}
               width={140}
+              alt ="plane"
             />
           </div>
         </div>

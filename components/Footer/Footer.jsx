@@ -9,11 +9,12 @@ function Footer() {
           <div className="w-[60%] flex flex-col items-center lg:w-[22%]">
             <div className="flex items-center ">
               {/* logo */}
-              <Image src="/assets/footer/logo.png" height={60} width={60} />
+              <Image src="/assets/footer/logo.png" height={60} width={60} alt="logo"/>
               <Image
                 src="/assets/footer/logo-text.png"
                 height={23}
                 width={173}
+                alt="logo"
               />
             </div>
             {/* text */}
@@ -55,9 +56,9 @@ function Footer() {
             {/* docial */}
             <div className="flex items-center">
               {/* social icons */}
-              <Image src="/assets/footer/facebook.png" height={50} width={50} />
-              <Image src="/assets/footer/insta.png" height={50} width={50} />
-              <Image src="/assets/footer/twitter.png" height={50} width={50} />
+              <Image src="/assets/footer/facebook.png" height={50} width={50} alt = "social icon"/>
+              <Image src="/assets/footer/insta.png" height={50} width={50} alt = "social icon"/>
+              <Image src="/assets/footer/twitter.png" height={50} width={50} alt = "social icon"/>
             </div>
             <div className="text-[18px] font-normal">
               {/* text */}
@@ -65,8 +66,8 @@ function Footer() {
             </div>
             <div className="flex justify-evenly w-[250px]">
               {/* buttons */}
-              <Image src="/assets/footer/Google.png" height={36} width={107} />
-              <Image src="/assets/footer/app.png" height={36} width={107} />
+              <Image src="/assets/footer/Google.png" height={36} width={107} alt="logo"/>
+              <Image src="/assets/footer/app.png" height={36} width={107} alt="logo"/>
             </div>
           </div>
         </div>

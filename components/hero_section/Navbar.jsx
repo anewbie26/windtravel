@@ -11,8 +11,8 @@ function Navbar() {
       <div className="flex ">
         {/* logo */}
         <div className="flex items-center">
-          <Image src="/assets/hero_sec_img/logo.png" height={60} width={60} />
-          <Image src="/assets/hero_sec_img/logoT.png" height={23} width={176} />
+          <Image src="/assets/hero_sec_img/logo.png" height={60} width={60}  alt="logo"/>
+          <Image src="/assets/hero_sec_img/logoT.png" height={23} width={176} alt="logo"/>
         </div>
       </div>
       <div>

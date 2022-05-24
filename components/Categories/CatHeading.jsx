@@ -15,7 +15,7 @@ function CatHeading() {
       </div>
       <div className="w-[30vw] | lg:w-fit | flex  justify-end">
         {/* decore image right */}
-        <Image src="/assets/category_img/decore.png" height={153} width={166} />
+        <Image src="/assets/category_img/decore.png" height={153} width={166} alt="decoration"/>
       </div>
     </div>
   );

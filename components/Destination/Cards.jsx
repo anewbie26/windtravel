@@ -8,7 +8,7 @@ function Cards({ img, location, price, icon, days }) {
         <div className="rounded-4xl">
           <div className="">
             {/* <Image src={img} height={300} width={400} objectFit="cover" className={{borderRedius : "24px"}}/> */}
-            <img src={img} className = "h-[270px] w-full object-cover rounded-t-xl" />
+            <img src={img} className = "h-[270px] w-full object-cover rounded-t-xl"  alt="image"/>
           </div>
           <div className="flex items-center justify-between my-3 text-[#023F76]">
             <h1 className="font-medium text-[18px] text-[#5E6282] mt-1 ml-6">
