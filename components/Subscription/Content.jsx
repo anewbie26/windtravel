@@ -10,7 +10,7 @@ function Content() {
           interesting offers about WindTravels
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-evenly h-[200px] xl:flex-row xl:w-[60%]">
+      <div className="flex flex-col w-[80%] items-center justify-evenly h-[200px] xl:flex-row xl:w-[60%]">
       <div className="flex bg-white relative z-50 w-[90%] h-[58px] items-center rounded-md | md:w-[60%] | | lg:w-[50%] | | xl:w-[421px] xl:h-[68px] | | 2xl:w-[30%] | shadow-lg">
         <div className="ml-4 text-gray-600">
           <MailOutlineIcon />

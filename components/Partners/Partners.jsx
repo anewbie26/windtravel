@@ -9,7 +9,7 @@ function Partners() {
       </div>
       <div className="flex justify-center ">
         {/* Logo */}
-        <div className="flex flex-col items-center justify-between  h-[340px] | md:flex-row md:justify-evenly | xl:h-[200px] xl:w-[70vw]">
+        <div className="flex flex-col items-center justify-between  h-[340px] | md:flex-row md:justify-evenly md:w-[100vw] || lg:w-[80vw] | xl:h-[200px] xl:w-[70vw]">
           <Image src="/assets/partners_img/logo1.png" height={51} width={343} />
           <Image
             src="/assets/partners_img/logo2.png"

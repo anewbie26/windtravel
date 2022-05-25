@@ -4,7 +4,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className=" font-poppins">
-      <div className=" mb-4 mt-36 pt-4 w-[98vw]  xl:flex xl:justify-center">
+      <div className=" mb-4 mt-36 pt-4 w-[98vw] lg:flex lg:justify-center  xl:flex xl:justify-center">
         <div className="  flex justify-center items-center flex-col | lg:flex-row | xl:w-[75vw]">
           <div className="w-[60%] flex flex-col items-center lg:w-[22%]">
             <div className="flex items-center ">
@@ -18,7 +18,7 @@ function Footer() {
               />
             </div>
             {/* text */}
-            <p className="text-[18px] font-normal text-center xl:text-[13px] ">
+            <p className="text-[18px] font-normal text-center lg:text-[13px] ">
               Book your trip in minuts. get full {<br />}Control for much longer
             </p>
           </div>

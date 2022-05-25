@@ -3,24 +3,24 @@ import React from "react";
 function Card() {
   return (
     <div>
-      <div className=" flex justify-center mt-8 ">
+      <div className=" flex justify-center mt-8 mb-14">
       {/* <div className="relative">
         <div className="h-80 w-80 rounded-full bg-[#59B1E6] filter blur-3xl absolute top-0 left-24 z-10 "></div>
       </div> */}
-        <div className="group z-50 | lg:mt-32 | relative shadow-lg rounded-2xl h-[400px] w-[80vw] | sm:w-[70vw] | | md:w-[65vw] | | lg:w-[35vw] lg:h-[320px] |  | xl:w-[370px] | | xl:h-[400px] | | 2xl:w-[26vw] |">
+        <div className="group z-50 | lg:mt-32 | relative shadow-lg rounded-2xl h-[400px] w-[80vw] | sm:w-[60vw] | | md:w-[50vw] | | lg:w-[30vw] lg:h-[320px] |  | xl:w-[370px] | | xl:h-[400px] | | 2xl:w-[26vw] |">
           <img
-            className="w-[100%] h-[60%] | lg:h-[50%] | | xl:h-[161px] xl:w-[321px] xl:mx-auto xl:my-[20px] |"
+            className="w-[100%] h-[60%] p-4 | lg:h-[50%] | | xl:h-[160px] xl:w-[90%]  xl:p-0 xl:mx-auto xl:mt-6 xl:mb-4 sm:p-4 |"
             src="/assets/nextTrip_img/beach.jpg"
             alt=""
           />
-          <h1 className="font-medium text-[19px] ml-8 mt-3 ">
+          <h1 className="font-medium text-[19px] ml-8  ">
             Trip To Boracay
           </h1>
           <p className="ml-8 mt-1 text-[16px] font-medium text-[#84829A] xl:mt-3">
             14-29 June| by Lei Britz
           </p>
           <div className="relative">
-            <div className="flex w-36 ml-8 mt-2 justify-between xl:mt-3">
+            <div className="flex w-36 ml-8 mt-2 justify-between xl:my-6">
               <img
                 src="/assets/nextTrip_img/LEAF.png"
                 alt=""
@@ -57,17 +57,17 @@ function Card() {
             {/* progress card */}
             <div className="">
               <div
-                className=" absolute -top-[220px] left-[13%] | sm:left-[50%] sm:-top-[120px] | | md:left-[60%] | | lg:left-[50%] | bg-white h-[130px] w-[263px] rounded-2xl shadow-xl flex group-hover:flex | lg:w-[230px] lg:h-[120px] | | xl:w-[263px]  xl:h-[130px]  xl:left-[57%] xl:-top-[75px] |
+                className=" absolute -top-[220px] left-[13%] | sm:left-[50%] sm:-top-[120px] | | md:left-[60%] | | lg:left-[50%] | bg-white h-[130px] w-[263px] rounded-2xl shadow-xl hidden group-hover:flex | lg:w-[200px] lg:h-[110px] | | xl:w-[263px]  xl:h-[130px]  xl:left-[57%] xl:-top-[75px] |
              "
               >
                 <div>
                   <img
                     src="/assets/nextTrip_img/beach.jpg"
                     alt=""
-                    className="h-14 w-14 rounded-full ml-4 mt-4 object-cover"
+                    className="h-14 w-14 rounded-full ml-4 lg:ml-2 mt-4 xl:ml-4 object-cover"
                   />
                 </div>
-                <div className="flex flex-col mx-4 mt-4 ">
+                <div className="flex flex-col mx-4 lg:ml-4 lg:mx-0 mt-4 ">
                   <p className="sm:text-xs xl:text-[16px] xl:font-medium text-[#84829A]">
                     Ongoing
                   </p>
@@ -81,7 +81,7 @@ function Card() {
                   <img
                     src="/assets/nextTrip_img/progress.png"
                     alt=""
-                    className="mt-2"
+                    className="mt-2 lg:w-[100px] xl:w-[120px]"
                   />
                 </div>
               </div>

@@ -17,7 +17,7 @@ function Navbar() {
       </div>
       <div>
         {/* Big screeen buttons*/}
-        <div className="scale-0 flex w-[50vw] text-[20px] font-bold  | lg:w-[65vw] | xl:w-[51vw] | 2xl:w-[50vw] |  justify-between px-4 text-white items-center | lg:scale-100 |">
+        <div className="scale-0 flex w-[50vw] text-[20px] font-bold  | lg:w-[65vw] | xl:w-[52vw] | 2xl:w-[50vw] |  justify-between px-4 text-white items-center | lg:scale-100 |">
           <p>Home</p>
           <p>About Us</p>
           <p>Premium</p>
