@@ -4,15 +4,15 @@ import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 function Text() {
   return (
-    <div className="mt-8 ml-8">
+    <div className="mt-8 ml-8 xl:mt-16 xl:ml-16">
       <div className="">
-        <h1 className="font-semibold text-[18px] ">TESTIMONIAL</h1>
+        <h1 className=" text-[18px] font-semibold text-[#5E6282] font-poppins">TESTIMONIAL</h1>
 
-        <h1 className="text-3xl font-bold mt-4 mb-12 font-volk ">
+        <h1 className="text-3xl font-bold mt-4 mb-12 xl:text-[50px] xl:font-bold xl:my-5  text-[#14183E] xl:leading-[64px] font-volk ">
           What Poeple Say {<br />}About Us.
         </h1>
       </div>
-      <div className="text-gray-800 text-center -mb-8 mr-8">
+      <div className="text-gray-800 text-center -mb-8 mr-8 xl:text-left xl:mt-24">
         <FiberManualRecordIcon />
         <FiberManualRecordOutlinedIcon />
         <FiberManualRecordOutlinedIcon />

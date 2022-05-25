@@ -4,7 +4,7 @@ import Text from './Text'
 
 function Testimonial() {
   return (
-    <div className='lg:flex lg:justify-evenly'>
+    <div className='lg:flex lg:justify-evenly xl:justify-start'>
       <Text />
       <Card />
     </div>

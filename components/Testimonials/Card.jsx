@@ -57,31 +57,32 @@ function Card() {
 
   return (
     <div className="flex flex-col items-center mb-8 ">
-      <div className="relative w-[80vw] lg:w-[50vw] xl:w-[40vw]">
+      <div className="relative w-[80vw] lg:w-[50vw]  xl:w-[50vw]">
         {" "}
         <img
           src="/assets/nextTrip_img/beach.jpg"
           alt=""
-          className="h-16 w-16 rounded-full ml-4 mt-4 object-cover absolute top-8 left-[135px] z-30 | sm:-left-8 | | md:-left-8 | | lg:-left-8 |"
+          className="h-16 w-16 rounded-full ml-4 mt-4 object-cover absolute top-8 left-[135px] z-30 | sm:-left-8 | | md:-left-8 | | lg:-left-8 | xl:left-20"
         />
       </div>
-
-      <div className="flex justify-center mb-8">
-        <div className="  mt-20 rounded-xl drop-shadow-xl bg-gray-200 h-[250px] w-[80vw]  | lg:w-[50vw] | | xl:w-[40vw] |">
-          <p className="p-6 text-base font-medium text-[#5E6282] mt-4">
-            {text.substring(0, 200) + "..."}
-          </p>
-          <h1 className="pl-6 font-bold text-lg text-[#5E6282]">{name}</h1>
-          <p className="pl-6  text-[#5E6282] font-medium">{location}</p>
+      <div className="xl:flex">
+        <div className="flex justify-center mb-8">
+          <div className="  mt-20 rounded-xl shadow-xl h-[250px] w-[80vw]  | lg:w-[50vw] | | xl:w-[504px] xl:h-[254px] xl:ml-10 |">
+            <p className="p-6 text-base font-medium text-[#5E6282] mt-4">
+              {text.substring(0, 200) + "..."}
+            </p>
+            <h1 className="pl-6 font-bold text-lg text-[#5E6282]">{name}</h1>
+            <p className="pl-6  text-[#5E6282] font-medium">{location}</p>
+          </div>
         </div>
-      </div>
-      {/* arrow */}
-      <div className="flex justify-between w-[100px] | lg:ml-6 |">
-        <div className="" onClick={prevePerson}>
-          <ArrowBackIosIcon />
-        </div>
-        <div className="" onClick={nextPerson}>
-          <ArrowForwardIosIcon />
+        {/* arrow */}
+        <div className="flex justify-between w-[100px] | lg:ml-6 | xl:rotate-90 xl:h-[100px] xl:mt-32">
+          <div className="text-gray-400" onClick={prevePerson}>
+            <ArrowBackIosIcon />
+          </div>
+          <div className="" onClick={nextPerson}>
+            <ArrowForwardIosIcon />
+          </div>
         </div>
       </div>
     </div>
