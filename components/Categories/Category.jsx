@@ -23,7 +23,7 @@ const array = [
   {
     img: "/assets/category_img/setting.png",
     heading: "Customization",
-    desc: "We deliver outsourced aviation services for military customers",
+    desc: "We deliver outsourced aviation services for military customers.",
   },
 ];
 
