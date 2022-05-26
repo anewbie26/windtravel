@@ -34,8 +34,8 @@ function Category() {
       <div className="xl:flex xl:justify-center">
         <Fade bottom timeout={1700}>
           <div className="flex flex-col | md:flex-row md:flex-wrap md:justify-evenly | xl:mt-8 xl:w-[85vw] xl:mb-20 ">
-            {array.map((card) => (
-              <CatCards img={card.img} title={card.heading} text={card.desc} />
+            {array.map((card, id) => (
+              <CatCards key={id} img={card.img} title={card.heading} text={card.desc} />
             ))}
           </div>
         </Fade>
