@@ -56,8 +56,8 @@ function Card() {
   };
 
   return (
-    <div className="flex flex-col items-center mb-8 lg:ml-24">
-      <div className="relative w-[80vw] sm:w-[60vw] lg:w-[50vw]  xl:w-[50vw]">
+    <div className="flex flex-col items-center mb-8 lg:ml-24  hover:scale-105 transition-all duration-200">
+      <div className="relative w-[80vw] sm:w-[60vw] lg:w-[50vw]  xl:w-[50vw] ">
         {" "}
         <img
           src="/assets/nextTrip_img/beach.jpg"

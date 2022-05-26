@@ -2,6 +2,7 @@ import React from "react";
 
 import CatHeading from "./CatHeading";
 import CatCards from "./CatCards";
+import { Fade } from "react-reveal";
 
 const array = [
   {
@@ -31,12 +32,14 @@ function Category() {
     <div className="">
       <CatHeading />
       <div className="xl:flex xl:justify-center">
-      <div className="flex flex-col | md:flex-row md:flex-wrap md:justify-evenly | xl:mt-8 xl:w-[85vw] xl:mb-20 ">
-      {array.map((card) => (
-        <CatCards img={card.img} title={card.heading} text={card.desc} />
-      ))}
-   </div>
-   </div>
+        <Fade bottom timeout={1700}>
+          <div className="flex flex-col | md:flex-row md:flex-wrap md:justify-evenly | xl:mt-8 xl:w-[85vw] xl:mb-20 ">
+            {array.map((card) => (
+              <CatCards img={card.img} title={card.heading} text={card.desc} />
+            ))}
+          </div>
+        </Fade>
+      </div>
     </div>
   );
 }

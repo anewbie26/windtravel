@@ -4,7 +4,7 @@ import React from "react";
 function Cards({ img, location, price, icon, days }) {
   return (
     <div className="flex justify-center mb-10 rounded-">
-      <div className=" rounded-3xl shadow-lg h-[370px] w-[75vw] sm:w-[60vw] | md:w-[35vw] | lg:w-[30vw] | xl:w-[314px] xl:h-[457px] relative z-50 bg-white hover:scale-105 transition-all duration-200">
+      <div className=" rounded-3xl shadow-lg h-[370px] w-[75vw] sm:w-[60vw] | md:w-[35vw] | lg:w-[30vw] | xl:w-[314px] xl:h-[457px] relative z-50 bg-white hover:scale-105 transition-all duration-200 cursor-pointer">
         <div className="rounded-4xl">
           <div className="">
             {/* <Image src={img} height={300} width={400} objectFit="cover" className={{borderRedius : "24px"}}/> */}

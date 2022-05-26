@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "./Cards";
 import Heading from "./Heading";
 import NearMeIcon from "@mui/icons-material/NearMe";
+import { Fade } from "react-reveal";
 
 const cards = [
   {
@@ -35,6 +36,7 @@ function Destination() {
     <div>
       <Heading />
 <div className="xl:flex xl:justify-center">
+  <Fade bottom timeout={1700}>
 <div className="flex flex-col mt-6 | md:flex-row md:flex-wrap md:justify-evenly | xl:w-[80vw] xl:mt-2">
       {cards.map((card) => (
         <Cards
@@ -47,6 +49,7 @@ function Destination() {
         />
       ))}
       </div>
+      </Fade>
       </div>
     </div>
   );
