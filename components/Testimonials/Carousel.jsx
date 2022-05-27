@@ -21,7 +21,6 @@ function Carousel() {
           <div>
             <Card
               key={rev.id}
-              Card
               text={rev.text}
               name={rev.name}
               location={rev.location}

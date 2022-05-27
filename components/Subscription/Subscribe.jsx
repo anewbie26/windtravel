@@ -15,7 +15,7 @@ function Subscribe() {
         <div className="absolute top-0 right-0 opacity-20">
           <Image
             src="/assets/subscribe_img/circle1.png"
-            alt=""
+            alt="decore"
             height={300}
             width={280}
           />
@@ -26,7 +26,7 @@ function Subscribe() {
         </div>
       </div>
       <div className = "absolute z-10 -bottom-[75px] right-0 | lg:right-5 | | xl:right-24 | | 2xl:right-20 |">
-          <Image src= "/assets/subscribe_img/decoreB.png" height={150} width ={150} />
+          <Image src= "/assets/subscribe_img/decoreB.png" height={150} width ={150} alt="decore" />
       </div>
     </div>
   );
