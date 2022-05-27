@@ -34,11 +34,11 @@ function Navbar() {
               !subMenuOpen ? "hidden" : "flex"
             }`}
           >
-            <p className = "pl-2 cursor-pointer hover:text-white hover:bg-[#EBB076]">English</p>
+            <p className = "pl-2 cursor-pointer hover:text-white hover:bg-[#EBB076] rounded">English</p>
             <p className = "pl-2 cursor-pointer hover:text-white hover:bg-[#EBB076] rounded">Hindi</p>{" "}
           </div>
           </div>
-          <button className="border-2 px-4 py-3 -ml-10 rounded-xl text-[20px] font-bold">Book Now</button>
+          <button className="border-2 px-4 py-3 -ml-10 rounded-xl text-[20px] font-bold hover:text-white hover:bg-[#EBB076] transition-all duration-200">Book Now</button>
         </div>
         <div className="lg:scale-0 relative">
           {!isOpen ? (

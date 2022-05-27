@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+// import Carousel from "./Carousel"
 
 function Footer() {
   return (
@@ -9,7 +10,12 @@ function Footer() {
           <div className="w-[60%] flex flex-col items-center lg:w-[22%]">
             <div className="flex items-center cursor-pointer">
               {/* logo */}
-              <Image src="/assets/footer/logo.png" height={60} width={60} alt="logo"/>
+              <Image
+                src="/assets/footer/logo.png"
+                height={60}
+                width={60}
+                alt="logo"
+              />
               <Image
                 src="/assets/footer/logo-text.png"
                 height={23}
@@ -25,7 +31,9 @@ function Footer() {
           <div className="md:flex md:flex-row md:justify-evenly md:w-[100vw] md:my-6 | lg:w-[50vw] | ">
             <div className="text-center  mt-4 | lg:text-left |">
               {/* company */}
-              <h1 className="font-bold text-xl mb-4 lg:text-[18px] cursor-pointer">Company</h1>
+              <h1 className="font-bold text-xl mb-4 lg:text-[18px] cursor-pointer">
+                Company
+              </h1>
               <div className="text-[18px] font-normal lg:text-[15px] text-[#5E6282]">
                 <h1 className="cursor-pointer">About</h1>
                 <h1 className="my-2 cursor-pointer">Careers</h1>
@@ -56,9 +64,24 @@ function Footer() {
             {/* docial */}
             <div className="flex items-center cursor-pointer">
               {/* social icons */}
-              <Image src="/assets/footer/facebook.png" height={50} width={50} alt = "social icon"/>
-              <Image src="/assets/footer/insta.png" height={50} width={50} alt = "social icon"/>
-              <Image src="/assets/footer/twitter.png" height={50} width={50} alt = "social icon"/>
+              <Image
+                src="/assets/footer/facebook.png"
+                height={50}
+                width={50}
+                alt="social icon"
+              />
+              <Image
+                src="/assets/footer/insta.png"
+                height={50}
+                width={50}
+                alt="social icon"
+              />
+              <Image
+                src="/assets/footer/twitter.png"
+                height={50}
+                width={50}
+                alt="social icon"
+              />
             </div>
             <div className="text-[18px] font-normal">
               {/* text */}
@@ -66,13 +89,26 @@ function Footer() {
             </div>
             <div className="flex justify-evenly w-[250px] xl:justify-between xl:w-[220px] cursor-pointer">
               {/* buttons */}
-              <Image src="/assets/footer/Google.png" height={36} width={107} alt="logo"/>
-              <Image src="/assets/footer/app.png" height={36} width={107} alt="logo"/>
+              <Image
+                src="/assets/footer/Google.png"
+                height={36}
+                width={107}
+                alt="logo"
+              />
+              <Image
+                src="/assets/footer/app.png"
+                height={36}
+                width={107}
+                alt="logo"
+              />
             </div>
           </div>
         </div>
       </div>
-      <p className="text-center mt-16 pb-2 text-[#5E6282]">All rights are reseved © 2022</p>
+      <p className="text-center mt-16 pb-2 text-[#5E6282]">
+        All rights are reseved © 2022
+      </p>
+      {/* <Carousel/> */}
     </div>
   );
 }

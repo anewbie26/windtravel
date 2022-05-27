@@ -1,14 +1,16 @@
-import React from 'react'
-import Card from './Card'
-import Text from './Text'
+import React from "react";
+// import Card from './Card'
+import Text from "./Text";
+import Carousel from "./Carousel";
 
 function Testimonial() {
   return (
-    <div className='lg:flex xl:justify-start lg:justify-start'>
+    <div className="lg:flex xl:justify-start lg:justify-start">
       <Text />
-      <Card />
+      {/* <Card /> */}
+      <Carousel />
     </div>
-  )
+  );
 }
 
-export default Testimonial
+export default Testimonial;

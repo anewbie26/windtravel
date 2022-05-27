@@ -1,73 +1,48 @@
-import React, { useState } from "react";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import React from "react";
+// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+// import {review} from "./reviews";
 
-const review = [
-  {
-    id: 1,
-    text: "My boyfriend and I met Haroon Baktoo as soon as we arrived to Delhi. We were a little lost and overwhelmed in such a chaotic city and meeting him was the best thing that could possibly ever happen tobus. He organized perfectly our itinerary for 14 days: Delhi, Rajastán, Agra and Varanasi. We stayed in hotels and havelis that were clean and precious..",
-    name: "la callin",
-    location: "Phillipines",
-  },
-  {
-    id: 2,
-    text: "Services of travel agent was not that good. He promised alot of things but we're not up to the mark One of the best enjoyable trip of Nepal, arranged by Ashirwad team. Our group was comprised of 14 people and had visited Nepal in mid of October19.",
-    name: "Ashfaque Ahmed",
-    location: "India",
-  },
-  {
-    id: 3,
-    text: "Haroon always gives us great service and has surpassed himself in the tour we have just finished. We started in .Veranasi and worked our way down to Aurangabad, seeing such a wide variety of sights along the way. Our driver, Rohit, was a very nice young man who we got along with very well.",
-    name: "James Carter",
-    location: "England",
-  },
-  {
-    id: 4,
-    text: "My wife and I wanted to visit India and learn about the life, culture and religions of the country. We love Indian cooking and were interested in taking a cooking className and eating authentic Indian cuisine, not eating at “restaurants” that cater to tourists. ",
-    name: "Hulk Hogan",
-    location: "WashingTon America",
-  },
-];
 
-function Card() {
-  const [index, setIndex] = useState(0);
-  const { id, text, name, location } = review[index];
+function Card({img,text,name,location}) {
+  // const [index, setIndex] = useState(0);
+  // const { id, text, name, location } = review[index];
 
-  const checkNumber = (number) => {
-    if (number > review.length - 1) {
-      return 0;
-    } else if (number < 0) {
-      return review.length - 1;
-    }
-    return number;
-  };
+  // const checkNumber = (number) => {
+  //   if (number > review.length - 1) {
+  //     return 0;
+  //   } else if (number < 0) {
+  //     return review.length - 1;
+  //   }
+  //   return number;
+  // };
 
-  const nextPerson = () => {
-    setIndex((index) => {
-      let newIndex = index + 1;
-      return checkNumber(newIndex);
-    });
-  };
-  const prevePerson = () => {
-    setIndex((index) => {
-      let newIndex = index - 1;
-      return checkNumber(newIndex);
-    });
-  };
+  // const nextPerson = () => {
+  //   setIndex((index) => {
+  //     let newIndex = index + 1;
+  //     return checkNumber(newIndex);
+  //   });
+  // };
+  // const prevePerson = () => {
+  //   setIndex((index) => {
+  //     let newIndex = index - 1;
+  //     return checkNumber(newIndex);
+  //   });
+  // };
 
   return (
-    <div className="flex flex-col items-center mb-8 lg:ml-24  hover:scale-105 transition-all duration-200">
-      <div className="relative w-[80vw] sm:w-[60vw] lg:w-[50vw]  xl:w-[50vw] ">
+    <div className="flex flex-col items-center   hover:scale-105 transition-all duration-200">
+      {/* <div className="relative w-[80vw] sm:w-[60vw] lg:w-[50vw]  xl:w-[50vw] ">
         {" "}
         <img
           src="/assets/nextTrip_img/beach.jpg"
           alt=""
           className="h-16 w-16 rounded-full ml-4 mt-4 object-cover absolute top-8 left-[135px] z-30 | sm:-left-8 | | md:-left-8 | | lg:-left-8 | xl:left-20"
         />
-      </div>
+      </div> */}
       <div className="flex flex-col items-center xl:flex xl:flex-row">
         <div className="flex justify-center mb-8">
-          <div className="  mt-20 rounded-xl shadow-xl h-[250px] w-[80vw] sm:w-[60vw] | lg:w-[50vw] | | xl:w-[504px] xl:h-[254px] xl:ml-10 |">
+          <div className="  mt-20 rounded-xl shadow-xl h-[280px] w-[80vw] sm:w-[60vw] | lg:w-[50vw] | | xl:w-[504px] xl:h-[254px] xl:ml-10 |">
             <p className="p-6 text-base font-medium text-[#5E6282] mt-4">
               {text.substring(0, 200) + "..."}
             </p>
@@ -76,14 +51,14 @@ function Card() {
           </div>
         </div>
         {/* arrow */}
-        <div className="flex justify-between w-[100px] | lg:ml-6 | xl:rotate-90 xl:h-[100px] xl:mt-24">
+        {/* <div className="flex justify-between w-[100px] | lg:ml-6 | xl:rotate-90 xl:h-[100px] xl:mt-24">
           <div className="hover:text-black text-gray-500" onClick={prevePerson}>
             <ArrowBackIosIcon />
           </div>
           <div className="hover:text-black text-gray-500" onClick={nextPerson}>
             <ArrowForwardIosIcon />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

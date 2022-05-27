@@ -25,7 +25,7 @@ function Content() {
         />
       </div>
 
-      <button className="py-4 px-12 xl:py-5 bg-[#FF8C6C] rounded-md  text-white text-[17px] font-semibold relative z-50">
+      <button className="py-4 px-12 xl:py-5 bg-[#FF8C6C] rounded-md  text-white text-[17px] font-semibold relative z-50 hover:text-[#FF8C6C] hover:bg-white transition-all duration-200">
         Subscribe
       </button>
       </div>

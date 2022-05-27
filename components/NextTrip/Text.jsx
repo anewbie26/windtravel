@@ -6,16 +6,16 @@ function Text() {
     <div>
       <div className="flex flex-col mt-16 xl:ml-[127px] font-poppins | lg:w-[55vw] | xl:w-[43vw]">
         <div className="mb-8">
+          <Fade bottom timeout={1300}>
           <p className="text-center xl:ml-0 xl:text-left lg:text-left lg:ml-8 xl:text-[18px] font-semibold text-[#5E6282] font-poppins">
             Easy and Fast
           </p>
-          <Fade left big cascade timeout={1700}>
           <h1 className="text-center md:text-3xl lg:text-left lg:ml-8 xl:text-left xl:ml-0 text-2xl xl:text-[50px] xl:font-bold xl:my-5 text-[#14183E] xl:leading-[64px] font-volk">
             Book your next trip {<br />} in 3 easy steps
           </h1>
           </Fade>
         </div>
-        <Fade bottom timeout={1700}>
+        <Fade bottom delay={300} timeout={1500}>
           <div className="flex ml-6 mb-10 | sm:ml-8 | | md:ml-8 | xl:ml-0">
             <div className="flex justify-center items-center h-[48px] w-[47px] rounded-2xl bg-[#F0BB1F]">
               {" "}
@@ -35,7 +35,7 @@ function Text() {
             </div>
           </div>
         </Fade>
-        <Fade bottom timeout={1700}>
+        <Fade bottom delay={300} timeout={1500}>
           <div className="flex ml-6 mb-10 | sm:ml-8 | | md:ml-8 | xl:ml-0 xl:mt-4 ">
             <div className="h-[48px] w-[47px] flex justify-center items-center rounded-2xl bg-[#E65D33]">
               {" "}
@@ -55,7 +55,7 @@ function Text() {
             </div>
           </div>
         </Fade>
-        <Fade bottom timeout={1700}>
+        <Fade bottom delay={300} timeout={1500}>
           <div className="flex ml-6 | sm:ml-8 | | md:ml-8 | xl:ml-0 xl:mt-4">
             <div className="h-[48px] w-[47px] flex justify-center items-center rounded-2xl bg-[#186077]">
               {" "}
