@@ -6,7 +6,7 @@ function Content() {
     <div className="flex flex-col items-center h-[400px] justify-evenly font-poppins">
       <div className="">
       
-        <h1 className=" text-center text-lg mt-8 font-semibold text-[#5E6282] xl:text-[33px] xl:leading-[54px]">
+        <h1 className="px-4 text-center text-lg mt-8 font-semibold text-[#5E6282] xl:text-[33px] xl:leading-[54px]">
           Subscribe to get information, latest news and other {<br />}{" "}
           interesting offers about WindTravels
         </h1>

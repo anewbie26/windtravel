@@ -1,41 +1,42 @@
 import GroupOutlinedIcon from "@mui/icons-material/GroupOutlined";
 const data = [
     {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
+      img: "/assets/hero_sec_img/card1.jpg",
+      title: "Trip To Palawan",
       icon: <GroupOutlinedIcon />,
       people: "24 people going",
     },
     {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
+      img: "/assets/hero_sec_img/card2.jpg",
+      title: "Trip To Baguio",
+      icon: <GroupOutlinedIcon />,
+      people: "28 people going",
+    },
+    {
+      img: "/assets/hero_sec_img/card3.jpg",
+      title: "Trip To Boracay",
+      icon: <GroupOutlinedIcon />,
+      people: "20 people going",
+    },
+    {
+      img: "/assets/hero_sec_img/card1.jpg",
+      title: "Trip To Palawan",
       icon: <GroupOutlinedIcon />,
       people: "24 people going",
     },
     {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
+      img: "/assets/hero_sec_img/card2.jpg",
+      title: "Trip To Baguio",
       icon: <GroupOutlinedIcon />,
-      people: "24 people going",
+      people: "28 people going",
     },
     {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
+      img: "/assets/hero_sec_img/card3.jpg",
+      title: "Trip To Boracay",
       icon: <GroupOutlinedIcon />,
-      people: "24 people going",
+      people: "20 people going",
     },
-    {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
-      icon: <GroupOutlinedIcon />,
-      people: "24 people going",
-    },
-    {
-      img: "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
-      title: "this is title",
-      icon: <GroupOutlinedIcon />,
-      people: "24 people going",
-    },
+   
   ];
 
   export default data;

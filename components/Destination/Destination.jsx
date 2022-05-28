@@ -3,7 +3,6 @@ import Cards from "./Cards";
 import Heading from "./Heading";
 import NearMeIcon from "@mui/icons-material/NearMe";
 
-
 const cards = [
   {
     id: 1,
@@ -35,24 +34,23 @@ function Destination() {
   return (
     <div>
       <Heading />
-<div className="xl:flex xl:justify-center">
- 
-<div className="flex flex-col mt-6 | md:flex-row md:flex-wrap md:justify-evenly | xl:w-[80vw] xl:mt-2">
-      {cards.map((card) => (
-        <Cards
-          key={card.id}
-          img={card.img}
-          location={card.location}
-          price={card.price}
-          icon={card.icon}
-          days={card.days}
-        />
-      ))}
-      </div>
-      
+      <div className="xl:flex xl:justify-center">
+        <div className="flex flex-col mt-6 | md:flex-row md:flex-wrap md:justify-evenly | xl:w-[80vw] xl:mt-2">
+          {cards.map((card) => (
+            <Cards
+              key={card.id}
+              img={card.img}
+              location={card.location}
+              price={card.price}
+              icon={card.icon}
+              days={card.days}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
 }
 
 export default Destination;
+             

@@ -18,14 +18,12 @@ function Carousel() {
     <div className="lg:ml-24 mx-auto w-[90vw] sm:w-[80vw] md:w-[80vw] lg:w-[55vw] xl:w-[50vw] ">
       <Slider {...settings}>
         {review.map((rev) => (
-          <div>
-            <Card
-              key={rev.id}
-              text={rev.text}
-              name={rev.name}
-              location={rev.location}
-            />
-          </div>
+          <Card
+            key={rev.id}
+            text={rev.text}
+            name={rev.name}
+            location={rev.location}
+          />
         ))}
       </Slider>
     </div>

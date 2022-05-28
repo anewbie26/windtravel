@@ -5,11 +5,11 @@ function Cards({img,title,icon,people}) {
     return (
       <div>
         
-        <div className="h-[230px] w-[176px]  py-4 rounded-xl bg-white opacity-80 lg:h-[220px]">
+        <div className="h-[215px] w-[160px] md:h-[230px] md:w-[176px] xl:h-[230px] xl:w-[176px] sm:h-[200px] sm:w-[160px] py-4 rounded-xl bg-white opacity-80 lg:h-[220px]">
           <img
             src={img}
             alt=""
-            className="m-auto h-[154px] w-[156px] rounded lg:h-[145px]"
+            className="m-auto h-[140px] w-[140px] md:h-[154px] md:w-[156px]  xl:h-[154px] xl:w-[156px] sm:h-[130px] sm:w-[145px] rounded lg:h-[145px]"
           />
           <div className="flex flex-col  text-[#023F76]">
           <h1 className="font-medium text-[16px] mt-1 ml-3 lg:font-bold sm:font-bold">{title}</h1>
@@ -24,5 +24,5 @@ function Cards({img,title,icon,people}) {
   }
   
   export default Cards;
-{/* <ArrowCircleRightOutlinedIcon />  */}
+
   

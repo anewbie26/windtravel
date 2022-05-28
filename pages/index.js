@@ -9,7 +9,7 @@ import Subscribe from "../components/Subscription/Subscribe";
 import Footer from "../components/Footer/Footer"
 export default function Home() {
   return (
-    // bg-[#E5E5E5]
+    // 
     <div className="">
       <Head>
         <title>WindTravels</title>

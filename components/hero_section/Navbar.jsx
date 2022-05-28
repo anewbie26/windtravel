@@ -7,7 +7,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   return (
-    <div className="h-[100px]  flex justify-between items-center px-4 pt-10 font-hero">
+    <div className="h-[100px]  flex justify-between items-center px-4 pt-10 font-hero relative z-[20]">
       <div className="flex xl:ml-10">
         {/* logo */}
         <div className="flex items-center cursor-pointer">
@@ -43,14 +43,14 @@ function Navbar() {
         <div className="lg:scale-0 relative">
           {!isOpen ? (
             <button
-              className="absolute -top-[54px] right-6 z-40"
+              className="absolute -top-[54px] right-6 z-[15]"
               onClick={() => setIsOpen(!isOpen)}
             >
               <MenuIcon />
             </button>
           ) : (
             <button
-              className=" text-2xl absolute -top-[54px] right-6  z-50"
+              className=" text-3xl font-bold absolute -top-[58px] right-6  z-[15]"
               onClick={() => setIsOpen(!isOpen)}
             >
               x
